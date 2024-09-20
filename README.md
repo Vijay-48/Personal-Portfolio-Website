@@ -26,6 +26,6 @@ Open the index.html file in your browser to explore the portfolio locally.
 
 
 # Contact Information
-Email: nameisvijju001@gmail.com
-LinkedIn: Vijay Krishna Rachamalla
-GitHub: Vijay-48
+- Email: nameisvijju001@gmail.com
+- LinkedIn: Vijay Krishna Rachamalla
+- GitHub: Vijay-48

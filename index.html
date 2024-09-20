@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">VIJAY</a>
+
+        <nav>
+            <a href="index.html" class="active"> Home</a>
+            <a href="Services.html" >Services</a>
+            <a href="Skills.html" >Skills</a>
+            <a href="Education.html" >Education</a>
+            <a href="Experience.html" >Experience</a>
+            <a href="Contact.html" >Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="Vijay.png" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Vijay</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>I'm a final-year B-Tech student specializing in Artificial Intelligence, with experience in AI/ML projects, web development, and Android app creation. Passionate about innovation, I’ve worked on deepfake detection systems and sustainable development solutions. I'm always eager to learn and apply new technologies.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/vijay-krishna-rachamalla-7baa07307"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Vijay-48"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/mr.__.kittu/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="#" class="btn">Hire me</a>
+        </div>
+    </section>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyDXFDtja-yFUYFl02g_HcBl049erhx7UWw",
+          authDomain: "personal-portfolio-websi-f11ff.firebaseapp.com",
+          projectId: "personal-portfolio-websi-f11ff",
+          storageBucket: "personal-portfolio-websi-f11ff.appspot.com",
+          messagingSenderId: "982642897732",
+          appId: "1:982642897732:web:05e4c9788188c17e339d11"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
+</body>
+</html>
